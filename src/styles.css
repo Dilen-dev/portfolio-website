@@ -75,9 +75,9 @@
   }
 }
 
-main {
+.row-container {
   display: flex;
-  padding: 20px;
+  padding: 2px;
 }
 
 .header-main {
@@ -112,4 +112,48 @@ main {
 
 .contact-button {
   margin-right: 5px;
+}
+
+.contact-button button {
+  background-color: var(--sea-ink);
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.expertise {
+  padding: 30px;
+}
+
+.expertise h1 {
+  text-align: center;
+}
+
+.fields {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.fields h2 {
+  background-color: dimgray;
+  color: var(--sea-ink);
+  padding: 20px;
+  border-radius: 5px;
+  width: 210px;
+  max-width: 210px;
+  text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
 }
