@@ -19,7 +19,7 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'TanStack Start Starter',
+        title: 'Lenyolosa Portfolio',
       },
     ],
     links: [
@@ -27,6 +27,28 @@ export const Route = createRootRoute({
         rel: 'stylesheet',
         href: appCss,
       },
+
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: '/src/images//Favicons/favicon_copy.png'
+      },
+
+      {
+        rel: 'preconnect',
+        href: 'https://googleapis.com',
+      },
+
+      {
+        rel: 'preconnect',
+        href: 'https://gstatic.com',
+        crossOrigin: 'anonymous',
+      },
+
+      {
+        rel: 'stylesheet',
+        href: 'https://googleapis.com/css2?family=Abril+Fatface&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap'
+      }
     ],
   }),
   shellComponent: RootDocument,

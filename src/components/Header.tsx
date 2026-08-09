@@ -11,11 +11,11 @@ export default function Header() {
           <h1>Expertise</h1>
           <h1>Skills</h1>
           <h1>Projects</h1>
-          <h1> Extras</h1>
+          <h1> Extras✨</h1>
         </section>
         <section className="contact-button">
           <div>
-            <button>Contact me</button>
+            <button><h1>Contact me</h1></button>
           </div>
         </section>
       </main>
