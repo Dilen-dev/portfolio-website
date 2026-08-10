@@ -42,6 +42,48 @@ function App() {
       <div>
         <article className='skills'>
           <h1 style={{ fontSize: '2rem '}}>My Skills</h1>
+          <div className='skills-list-container'>
+            <div className='skill-card'>
+              <img src='/src/images/skills/python.png'/>
+              <p className='skill-name'>Python</p>
+            </div>
+            <div className='skill-card'>
+              <img src='/src/images/skills/Power-BI.png' />
+              <p className='skill-name'>Power BI</p>
+            </div>
+            <div className='skill-card'>
+              <img src='/src/images/skills/php.png'/>
+              <p className='skill-name'>PHP</p>
+            </div>
+            <div className='skill-card'>
+              <img src="/src/images/skills/C++.png" />
+              <p className='skill-name'>C++</p>
+            </div>
+            <div className='skill-card'>
+              <img src="/src/images/skills/sql.png" />
+              <p className='skill-name'>SQL</p>
+            </div>
+            <div className='skill-card'>
+              <img src="/src/images/skills/JS.webp" />
+              <p className='skill-name'>JS</p>
+            </div>
+            <div className='skill-card'>
+              <img src="/src/images/skills/react.png" />
+              <p className='skill-name'>React</p>
+            </div>
+            <div className='skill-card'>
+              <img src="/src/images/skills/Git.png" />
+              <p className='skill-name'>GIT</p>
+            </div>
+            <div className='skill-card'>
+              <img src="/src/images/skills/docker.png" />
+              <p className='skill-name'>Docker</p>
+            </div>
+            <div className='skill-card'>
+              <img src="/src/images/skills/github.webp" />
+              <p className='skill-name'>Github</p>
+            </div>
+          </div>
         </article>
       </div>
     </main>
