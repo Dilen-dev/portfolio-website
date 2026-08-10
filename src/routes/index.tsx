@@ -60,7 +60,7 @@ function App() {
               <p className='skill-name'>C++</p>
             </div>
             <div className='skill-card'>
-              <img src="/src/images/skills/sql.png" />
+              <img src="../images/skills/sql.png" />
               <p className='skill-name'>SQL</p>
             </div>
             <div className='skill-card'>
