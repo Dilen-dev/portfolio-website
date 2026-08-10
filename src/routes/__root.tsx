@@ -31,7 +31,7 @@ export const Route = createRootRoute({
       {
         rel: 'icon',
         type: 'image/png',
-        href: '/src/images//Favicons/favicon_copy.png'
+        href: '/src/images/Favicons/favicon_copy.png'
       },
 
       {
