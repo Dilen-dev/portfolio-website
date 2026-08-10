@@ -3,6 +3,7 @@ import { TanStackRouterDevtoolsPanel } from '@tanstack/react-router-devtools'
 import { TanStackDevtools } from '@tanstack/react-devtools'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import favicon from '../images/Favicons/favicon_copy.png'
 
 import appCss from '../styles.css?url'
 
@@ -31,7 +32,7 @@ export const Route = createRootRoute({
       {
         rel: 'icon',
         type: 'image/png',
-        href: '/public/images/Favicons/favicon_copy.png'
+        href: favicon + '?v=1',
       },
 
       {
