@@ -1,5 +1,15 @@
 import { createFileRoute } from '@tanstack/react-router'
 import Typewriter from 'typewriter-effect'
+import powerBiIcon from '../images/skills/Power-BI.png'
+import dockerIcon from '../images/skills/docker.png'
+import pythonIcon from '../images/skills/python.png'
+import sqlIcon from '../images/skills/sql.png'
+import phpIcon from '../images/skills/php.png'
+import javascriptBiIcon from '../images/skills/JS.webp'
+import githubIcon from '../images/skills/github.webp'
+import gitIcon from '../images/skills/Git.png'
+import cPlusPlusIcon from '../images/skills/C++.png'
+import reactIcon from '../images/skills/react.png'
 
 export const Route = createFileRoute('/')({ component: App })
 
@@ -44,43 +54,43 @@ function App() {
           <h1 style={{ fontSize: '2rem '}}>My Skills</h1>
           <div className='skills-list-container'>
             <div className='skill-card'>
-              <img src='/public/images/skills/python.png'/>
+              <img src={pythonIcon}/>
               <p className='skill-name'>Python</p>
             </div>
             <div className='skill-card'>
-              <img src='/public/images/skills/Power-BI.png' />
+              <img src={powerBiIcon}/>
               <p className='skill-name'>Power BI</p>
             </div>
             <div className='skill-card'>
-              <img src='/public/images/skills/php.png'/>
+              <img src={phpIcon}/>
               <p className='skill-name'>PHP</p>
             </div>
             <div className='skill-card'>
-              <img src="/public/images/skills/C++.png" />
+              <img src={cPlusPlusIcon}/>
               <p className='skill-name'>C++</p>
             </div>
             <div className='skill-card'>
-              <img src="/public/images/skills/sql.png" />
+              <img src={sqlIcon}/>
               <p className='skill-name'>SQL</p>
             </div>
             <div className='skill-card'>
-              <img src="/public/images/skills/JS.webp" />
+              <img src={javascriptBiIcon}/>
               <p className='skill-name'>JS</p>
             </div>
             <div className='skill-card'>
-              <img src="/public/images/skills/react.png" />
+              <img src={reactIcon}/>
               <p className='skill-name'>React</p>
             </div>
             <div className='skill-card'>
-              <img src="/public/images/skills/Git.png" />
+              <img src={gitIcon}/>
               <p className='skill-name'>GIT</p>
             </div>
             <div className='skill-card'>
-              <img src="/public/images/skills/docker.png" />
+              <img src={dockerIcon}/>
               <p className='skill-name'>Docker</p>
             </div>
             <div className='skill-card'>
-              <img src="/public/images/skills/github.webp" />
+              <img src={githubIcon}/>
               <p className='skill-name'>Github</p>
             </div>
           </div>
