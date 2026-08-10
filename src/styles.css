@@ -206,3 +206,11 @@ h2 {
   transform: translateX(5px);
   cursor: pointer;
 }
+
+.projects {
+  padding-top: 30px;
+}
+
+.projects h1 {
+  text-align: center;
+}

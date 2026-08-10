@@ -96,6 +96,11 @@ function App() {
           </div>
         </article>
       </div>
+      <div>
+        <article className='projects'>
+          <h1 style={{ fontSize: '2rem' }}> My Projects</h1>
+        </article>
+      </div>
     </main>
   )
 }
