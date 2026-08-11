@@ -15,7 +15,7 @@ export const Route = createFileRoute('/')({ component: App })
 
 function App() {
   return (
-    <main className="page-wrap px-4 pb-8 pt-14">
+    <main className="max-w-7xl mx-auto page-wrap px-4 pb-8 pt-14">
       <div className="row-container">
         <section className="hero">
           <h1 style={{ fontSize: '4rem', display: 'inline-flex' }}>Shaping&nbsp;{''}
@@ -78,7 +78,7 @@ function App() {
               <p className='skill-name'>JS</p>
             </div>
             <div className='skill-card'>
-              <img src={reactIcon}/>
+              <img src={reactIcon} className='react'/>
               <p className='skill-name'>React</p>
             </div>
             <div className='skill-card'>

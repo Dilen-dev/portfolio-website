@@ -75,6 +75,24 @@
   }
 }
 
+body {
+  background-image: url('./images/Backgrounds/pexels-cottonbro-9665178.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #030712;
+}
+
+.header-main,footer,main {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+
 .row-container {
   display: flex;
   padding: 2px;
@@ -155,7 +173,7 @@ h2 {
 }
 
 .fields h2 {
-  background-color: dimgray;
+  background-color: rgba(81, 75, 75, 0.13);
   color: var(--sea-ink);
   padding: 20px;
   border-radius: 5px;
@@ -197,9 +215,19 @@ h2 {
   max-width: 110px;
   gap: 16px;
   padding: 12px 24px;
-  background-color: #1f2937;
+  background-color: rgba(81, 75, 75, 0.13);
   border-radius: 9999px;
   transition: transform 0.2s ease, background-color 0.2s ease;
+  perspective: 1000px;
+}
+
+.skill-card img {
+  transition: transform 1s ease-in;
+  transform-style: preserve-3d;
+}
+
+.skill-card:hover img {
+  transform: rotateY(360deg);
 }
 
 .skill-card:hover {
