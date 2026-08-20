@@ -10,6 +10,7 @@ import githubIcon from '../images/skills/github.webp'
 import gitIcon from '../images/skills/Git.png'
 import cPlusPlusIcon from '../images/skills/C++.png'
 import reactIcon from '../images/skills/react.png'
+import ThreeScene from './Scene';
 
 export const Route = createFileRoute('/')({ component: App })
 
@@ -34,7 +35,7 @@ function App() {
           <button style={{ backgroundColor: 'var(--sea-ink)', color: 'black', border: 'none', padding: '5px 10px', borderRadius: '5px', cursor: 'pointer' }}>View my CV  &darr;</button>
         </section>
         <aside className="sidebar">
-          <p>The 3d graphics area</p>
+          <ThreeScene/>
         </aside>
       </div>
       <div>
