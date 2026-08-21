@@ -8,10 +8,18 @@ export default function Header() {
           <h1>Dilen Dev</h1>
         </section>
         <section className="header-links">
-          <h1>Expertise</h1>
-          <h1>Skills</h1>
-          <h1>Projects</h1>
-          <h1> Extras✨</h1>
+          <Link to='/' hash='expertise' className='nav-link'>
+            <h1>Expertise</h1>
+          </Link>
+          <Link to='/' hash='skills' className='nav-link'>
+           <h1>Skills</h1>
+          </Link>
+          <Link to='/' hash='projects' className='nav-link'>
+            <h1>Projects</h1>
+          </Link>
+          <Link to='/' hash='expertise' className='nav-link'>
+            <h1> Extras✨</h1>
+          </Link>
         </section>
         <section className="contact-button">
           <div>

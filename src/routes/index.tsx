@@ -41,7 +41,7 @@ function App() {
         </aside>
       </div>
       <div>
-        <article className="expertise">
+        <article className="expertise" id='expertise'>
           <h1 style={{ fontSize: '2rem' }}> Fields of Expertise</h1>
           <div className="fields">
             <h2 style={{ fontSize: '1.7rem' }}> Full-stack Web Development</h2>
@@ -53,7 +53,7 @@ function App() {
         </article>
       </div>
       <div>
-        <article className='skills'>
+        <article className='skills' id='skills'>
           <h1 style={{ fontSize: '2rem '}}>My Skills</h1>
           <div className='skills-list-container'>
             <div className='skill-card'>
@@ -100,7 +100,7 @@ function App() {
         </article>
       </div>
       <div>
-        <article className='projects'>
+        <article className='projects' id='projects'>
           <h1 style={{ fontSize: '2rem' }}> My Projects</h1>
         </article>
       </div>
