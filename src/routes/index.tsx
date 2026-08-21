@@ -32,7 +32,9 @@ function App() {
           <h1 style={{ fontSize: '4rem' }}>that Deliver Results</h1>
           <h6 style={{ fontSize: '0.9rem', fontFamily: 'Literata, serif',fontOpticalSizing: 'auto',fontWeight: 400 }}> Hi, I'm Lenyolosa, a developer based in Lesotho with a passion for solving problems through code and data.</h6>
           <br/>
-          <button style={{ backgroundColor: 'var(--sea-ink)', color: 'black', border: 'none', padding: '5px 10px', borderRadius: '5px', cursor: 'pointer' }}>View my CV  &darr;</button>
+          <a href="../Lenyolosa_Master_CV.pdf" download="Lenyolosa's CV.pdf">
+            <button style={{ backgroundColor: 'var(--sea-ink)', color: 'black', border: 'none', padding: '5px 10px', borderRadius: '5px', cursor: 'pointer' }}>View my CV  &darr;</button>
+          </a>
         </section>
         <aside className="sidebar">
           <ThreeScene/>
