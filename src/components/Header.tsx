@@ -2,7 +2,7 @@ import { Link } from '@tanstack/react-router'
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 border-b border-[var(--line)] bg-[var(--header-bg)] px-4 backdrop-blur-lg">
+    <header className="sticky top-0 z-50 border-b border-(--line) bg-(--header-bg) px-4 backdrop-blur-lg">
       <main className="header-main">
         <section className="Name">
           <h1>Dilen Dev</h1>
