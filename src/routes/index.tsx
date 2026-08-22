@@ -47,16 +47,16 @@ function App() {
             <div className='field'>
               <h2 style={{ fontSize: '1.7rem' }}> Full-stack Web Development</h2>
             </div>
-            <div>
+            <div className='field'>
               <h2 style={{ fontSize: '1.7rem' }}> Data Engineering</h2>
             </div>
-            <div>
+            <div className='field'>
               <h2 style={{ fontSize: '1.7rem' }}> Data Analysis & visualization</h2>
             </div>
-            <div>
+            <div className='field'>
               <h2 style={{ fontSize: '1.7rem' }}> Analytics Engineering</h2>
             </div>
-            <div>
+            <div className='field'>
               <h2 style={{ fontSize: '1.7rem' }}> Database Management</h2>
             </div>
           </div>
