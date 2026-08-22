@@ -44,11 +44,21 @@ function App() {
         <article className="expertise" id='expertise'>
           <h1 style={{ fontSize: '2rem' }}> Fields of Expertise</h1>
           <div className="fields">
-            <h2 style={{ fontSize: '1.7rem' }}> Full-stack Web Development</h2>
-            <h2 style={{ fontSize: '1.7rem' }}> Data Engineering</h2>
-            <h2 style={{ fontSize: '1.7rem' }}> Data Analysis & visualization</h2>
-            <h2 style={{ fontSize: '1.7rem' }}> Analytics Engineering</h2>
-            <h2 style={{ fontSize: '1.7rem' }}> Database Management</h2>
+            <div className='field'>
+              <h2 style={{ fontSize: '1.7rem' }}> Full-stack Web Development</h2>
+            </div>
+            <div>
+              <h2 style={{ fontSize: '1.7rem' }}> Data Engineering</h2>
+            </div>
+            <div>
+              <h2 style={{ fontSize: '1.7rem' }}> Data Analysis & visualization</h2>
+            </div>
+            <div>
+              <h2 style={{ fontSize: '1.7rem' }}> Analytics Engineering</h2>
+            </div>
+            <div>
+              <h2 style={{ fontSize: '1.7rem' }}> Database Management</h2>
+            </div>
           </div>
         </article>
       </div>

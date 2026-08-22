@@ -173,7 +173,7 @@ h2 {
   margin-top: 15px;
 }
 
-.fields h2 {
+.fields .field {
   background-color: rgba(81, 75, 75, 0.13);
   color: var(--sea-ink);
   padding: 20px;
