@@ -15,7 +15,7 @@ export default function Header() {
            <h1>Skills</h1>
           </Link>
           <Link to='/' hash='projects' className='nav-link'>
-            <h1>Projects</h1>
+            <h1>Projects🧑‍💻</h1>
           </Link>
           <Link to='/' hash='expertise' className='nav-link'>
             <h1> Extras✨</h1>
