@@ -46,18 +46,33 @@ function App() {
           <div className="fields">
             <div className='field'>
               <h2 style={{ fontSize: '1.7rem' }}> Full-stack Web Development</h2>
+              <div className='content'>
+                <p> I develop interactive and data-driven apps that are user friendly</p>
+              </div>
             </div>
             <div className='field'>
               <h2 style={{ fontSize: '1.7rem' }}> Data Engineering</h2>
+              <div className='content'>
+                <p> I develop robust and dynamic data pipelines that provide quality data</p>
+              </div>
             </div>
             <div className='field'>
               <h2 style={{ fontSize: '1.7rem' }}> Data Analysis & visualization</h2>
+              <div className='content'>
+                <p> I develop interactive dashboards and data models that help make decisions easier</p>
+              </div>
             </div>
             <div className='field'>
               <h2 style={{ fontSize: '1.7rem' }}> Analytics Engineering</h2>
+              <div className='content'>
+                <p> I prepare data and analyze it to extract valuable information that provides understanding </p>
+              </div>
             </div>
             <div className='field'>
               <h2 style={{ fontSize: '1.7rem' }}> Database Management</h2>
+              <div className='content'>
+                <p> I oversee the operation of the database and ensure integrity and governance over the data</p>
+              </div>
             </div>
           </div>
         </article>
